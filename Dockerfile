@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.3.6-node
+FROM circleci/ruby:2.4.3-node
 USER root
 RUN apt-get update && \
       apt-get install -y python3-pip && \
